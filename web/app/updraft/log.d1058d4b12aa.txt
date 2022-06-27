@@ -1,0 +1,277 @@
+0000.000 (0) Opened log file at time: Mon, 27 Jun 2022 07:03:03 +0000 on http://localhost:8888/wp
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.0 PHP: 7.4.16 (cli-server, Darwin imac-de-thomas.home 16.7.0 Darwin Kernel Version 16.7.0: Sun Jun  2 20:26:31 PDT 2019; root:xnu-3789.73.50~1/RELEASE_X86_64 x86_64) MySQL: 5.7.32 (max packet size=4194304) WPLANG: fr_FR Server: PHP 7.4.16 Development Server safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 57.2M | 4.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG: fr_FR.UTF-8 ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 24755.5 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.010 (0) Set semaphore last lock (fd) time to 2022-06-27 07:03:03
+0000.011 (0) Semaphore lock (fd) complete
+0000.014 (0) Backup run: resumption=0, nonce=d1058d4b12aa, file_nonce=d1058d4b12aa begun at=1656313383 (0s ago), job type=backup
+0000.016 (0) Scheduling a resumption (1) after 300 seconds (1656313683) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.048 (0) Testing: /usr/bin/zip
+0000.063 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.064 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.065 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.067 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.084 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.086 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.096 (0) Working binary zip found: /usr/bin/zip
+0000.099 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.100 (0) Creation of backups of directories: beginning
+0000.103 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.386 (0) Total entities for the zip file: 602 directories, 3387 files (0 skipped as non-modified), 70.8 MB
+0000.393 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.399 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.403 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.406 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.410 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.413 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.417 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27 MB, 3387 files batched, 807 (807) added so far); re-opening (prior size: 0 KB)
+0001.786 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: size is now: 5.40 MB
+0001.788 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.4 s, rate: 10747.8 KB/s)
+0001.789 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.5698320865631, normalised_time=2.3818853549347, max_time=1.7884500026703, data points known=1, old_max_bytes=26214400, new_max_bytes=66034412)
+0001.794 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 900 files added (on-disk size: 5511 KB)
+0001.798 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1000 files added (on-disk size: 5511 KB)
+0001.802 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1100 files added (on-disk size: 5511 KB)
+0001.806 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1200 files added (on-disk size: 5511 KB)
+0001.809 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1300 files added (on-disk size: 5511 KB)
+0001.814 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1400 files added (on-disk size: 5511 KB)
+0001.818 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1500 files added (on-disk size: 5511 KB)
+0001.821 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1600 files added (on-disk size: 5511 KB)
+0001.826 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1700 files added (on-disk size: 5511 KB)
+0001.830 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1800 files added (on-disk size: 5511 KB)
+0001.831 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.7 MB, 3387 files batched, 1001 (1808) added so far); re-opening (prior size: 5511 KB)
+0003.702 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: size is now: 11.60 MB
+0003.710 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 1900 files added (on-disk size: 11868.7 KB)
+0003.715 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2000 files added (on-disk size: 11868.7 KB)
+0003.719 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2100 files added (on-disk size: 11868.7 KB)
+0003.723 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2200 files added (on-disk size: 11868.7 KB)
+0003.726 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2300 files added (on-disk size: 11868.7 KB)
+0003.730 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2400 files added (on-disk size: 11868.7 KB)
+0003.734 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2500 files added (on-disk size: 11868.7 KB)
+0003.737 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2600 files added (on-disk size: 11868.7 KB)
+0003.741 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2700 files added (on-disk size: 11868.7 KB)
+0003.744 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2800 files added (on-disk size: 11868.7 KB)
+0003.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.8 MB, 3387 files batched, 1001 (2809) added so far); re-opening (prior size: 11868.7 KB)
+0005.774 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: size is now: 17.50 MB
+0005.799 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 2900 files added (on-disk size: 17900.1 KB)
+0005.804 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 3000 files added (on-disk size: 17900.1 KB)
+0005.850 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 3100 files added (on-disk size: 17900.1 KB)
+0005.859 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 3200 files added (on-disk size: 17900.1 KB)
+0005.869 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.tmp: 3300 files added (on-disk size: 17900.1 KB)
+0006.770 (0) Creating zip file manifest (backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip.list-temp.tmp)
+0006.800 (0) Successfully created zip file manifest (size: 300089)
+0007.258 (0) Created plugins zip (0) - 18961.2 KB in 7.2 s (2650.7 KB/s) (sha1: d2ade261c7066a790b255d9a94235274cb09e7a1, sha256: 60a9734ac11008b0f5e4b28f5fa666d4b8ff5b4c65c6794716920c5594b9bf16)
+0007.263 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.298 (0) Total entities for the zip file: 19 directories, 181 files (0 skipped as non-modified), 7.3 MB
+0007.303 (0) Zip: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.169 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip.tmp: size is now: 6.60 MB
+0008.200 (0) Creating zip file manifest (backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip.list-temp.tmp)
+0008.202 (0) Successfully created zip file manifest (size: 12214)
+0008.353 (0) Created themes zip (0) - 6767.6 KB in 1.1 s (6225 KB/s) (sha1: 31712a88876f710224765f26cc409867887fc593, sha256: cd48dc788e4b5bf77c0191d98f14574fd9379e7a08f084acb8a4c759beced5b0)
+0008.355 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.356 (0) Looking for candidates to backup in: /Volumes/HDD/PROJETS/Test_atelier/web/app/uploads
+0008.357 (0) finding files: .gitkeep: adding to list (1)
+0008.358 (0) finding files: 2022: adding to list (2)
+0008.359 (0) finding files: forminator: adding to list (3)
+0008.360 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.377 (0) Total entities for the zip file: 4 directories, 60 files (0 skipped as non-modified), 2.1 MB
+0008.537 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip.tmp: size is now: 2.10 MB
+0008.546 (0) Creating zip file manifest (backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip.list-temp.tmp)
+0008.548 (0) Successfully created zip file manifest (size: 2831)
+0008.597 (0) Created uploads zip (0) - 2113.2 KB in 0.2 s (8960.1 KB/s) (sha1: cd907af61a4f3c9ff917dbc04cdb9a40fc91a31d, sha256: 911bce7e22c3e2c9f1b1963c81984684844bd153120b68a8bf8091c176d54703)
+0008.599 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.600 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.601 (0) Looking for candidates to backup in: /Volumes/HDD/PROJETS/Test_atelier/web/app
+0008.602 (0) finding files: .DS_Store: adding to list (1)
+0008.603 (0) finding files: debug.log: skipping: excluded by options
+0008.603 (0) finding files: languages: adding to list (2)
+0008.604 (0) finding files: mu-plugins: adding to list (3)
+0008.605 (0) finding files: plugins: skipping: this is the plugins directory
+0008.606 (0) finding files: themes: skipping: this is the themes directory
+0008.607 (0) finding files: updraft: skipping: this is the updraft directory
+0008.607 (0) finding files: upgrade: skipping: excluded by options
+0008.608 (0) finding files: uploads: skipping: this is the uploads directory
+0008.617 (0) Total entities for the zip file: 4 directories, 80 files (0 skipped as non-modified), 4.4 MB
+0009.074 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip.tmp: size is now: 1.20 MB
+0009.080 (0) Creating zip file manifest (backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip.list-temp.tmp)
+0009.081 (0) Successfully created zip file manifest (size: 4888)
+0009.112 (0) Created others zip (0) - 1233 KB in 0.5 s (2455.4 KB/s) (sha1: b2e95483160e5f0ca6a15408526d870cf8340038, sha256: 79a5f39e82bc678437ddef426971073bb8e4c2779b4bed70a159aaead95923cb)
+0009.116 (0) Saving backup status to database (elements: 8)
+0009.119 (0) Beginning creation of database dump (WordPress DB)
+0009.120 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0009.134 (0) Table wp_options: Total expected rows (approximate): 2443
+0009.190 (0) Table wp_options: Rows added in this batch (next record: 725): 223 (uncompressed bytes in this segment=777624) in 0.06 seconds
+0009.200 (0) Table wp_options: finishing file(s) (2, 165.2 KB)
+0009.207 (0) Table wp_users: Total expected rows (via COUNT): 1
+0009.208 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.211 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1403) in 0.01 seconds
+0009.217 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0009.222 (0) Table wp_usermeta: Total expected rows (via COUNT): 24
+0009.223 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.225 (0) Table wp_usermeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=2202) in 0.01 seconds
+0009.230 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0009.235 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0009.237 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0009.253 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0009.256 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0009.258 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.260 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2246) in 0.00 seconds
+0009.269 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0009.273 (0) Table wp_links: Total expected rows (via COUNT): 0
+0009.276 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0009.281 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0009.287 (0) Table wp_postmeta: Total expected rows (approximate): 2854
+0009.330 (0) Table wp_postmeta: Rows added in this batch (next record: 3072): 2993 (uncompressed bytes in this segment=205181) in 0.05 seconds
+0009.342 (0) Table wp_postmeta: finishing file(s) (2, 28.4 KB)
+0009.348 (0) Table wp_posts: Total expected rows (via COUNT): 208
+0009.349 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.366 (0) Table wp_posts: Rows added in this batch (next record: 298): 208 (uncompressed bytes in this segment=110215) in 0.02 seconds
+0009.382 (0) Table wp_posts: finishing file(s) (2, 12.5 KB)
+0009.385 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0009.388 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 15 (uncompressed bytes in this segment=888) in 0.00 seconds
+0009.403 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0009.409 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0009.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.413 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1094) in 0.01 seconds
+0009.418 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0009.422 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0009.424 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0009.429 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0009.432 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0009.433 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.435 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=889) in 0.00 seconds
+0009.438 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0009.442 (0) Table wp_frmt_form_entry: Total expected rows (via COUNT): 0
+0009.444 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=783) in 0.00 seconds
+0009.448 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.4 KB)
+0009.453 (0) Table wp_frmt_form_entry_meta: Total expected rows (via COUNT): 0
+0009.455 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0009.460 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0009.463 (0) Table wp_frmt_form_views: Total expected rows (via COUNT): 81
+0009.464 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.467 (0) Table wp_frmt_form_views: Rows added in this batch (next record: 81): 81 (uncompressed bytes in this segment=6753) in 0.00 seconds
+0009.471 (0) Table wp_frmt_form_views: finishing file(s) (2, 1.1 KB)
+0009.472 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_options.table.tmpr726.gz (1/15/fopen): adding to final database dump
+0009.476 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_options.table.gz (2/15/fopen): adding to final database dump
+0009.477 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_users.table.tmpr2.gz (3/15/fopen): adding to final database dump
+0009.478 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_users.table.gz (4/15/fopen): adding to final database dump
+0009.479 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_usermeta.table.tmpr25.gz (5/15/fopen): adding to final database dump
+0009.480 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_usermeta.table.gz (6/15/fopen): adding to final database dump
+0009.480 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_commentmeta.table.tmpr0.gz (7/15/fopen): adding to final database dump
+0009.481 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_commentmeta.table.gz (8/15/fopen): adding to final database dump
+0009.482 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_comments.table.tmpr2.gz (9/15/fopen): adding to final database dump
+0009.483 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_comments.table.gz (10/15/fopen): adding to final database dump
+0009.483 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_links.table.tmpr0.gz (11/15/fopen): adding to final database dump
+0009.484 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_links.table.gz (12/15/fopen): adding to final database dump
+0009.485 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_postmeta.table.tmpr3073.gz (13/15/fopen): adding to final database dump
+0009.487 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_postmeta.table.gz (14/15/fopen): adding to final database dump
+0009.489 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_posts.table.tmpr299.gz (15/15/fopen): adding to final database dump
+0009.490 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_posts.table.gz (16/15/fopen): adding to final database dump
+0009.491 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_term_relationships.table.tmpr100001.gz (17/15/fopen): adding to final database dump
+0009.492 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_term_relationships.table.gz (18/15/fopen): adding to final database dump
+0009.493 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_term_taxonomy.table.tmpr7.gz (19/15/fopen): adding to final database dump
+0009.494 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_term_taxonomy.table.gz (20/15/fopen): adding to final database dump
+0009.495 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_termmeta.table.tmpr0.gz (21/15/fopen): adding to final database dump
+0009.496 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_termmeta.table.gz (22/15/fopen): adding to final database dump
+0009.497 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_terms.table.tmpr7.gz (23/15/fopen): adding to final database dump
+0009.498 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_terms.table.gz (24/15/fopen): adding to final database dump
+0009.499 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_entry.table.tmpr0.gz (25/15/fopen): adding to final database dump
+0009.499 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_entry.table.gz (26/15/fopen): adding to final database dump
+0009.500 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_entry_meta.table.tmpr0.gz (27/15/fopen): adding to final database dump
+0009.501 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_entry_meta.table.gz (28/15/fopen): adding to final database dump
+0009.502 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_views.table.tmpr82.gz (29/15/fopen): adding to final database dump
+0009.502 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db-table-wp_frmt_form_views.table.gz (30/15/fopen): adding to final database dump
+0009.504 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz: finished writing out complete database file (213.5 KB)
+0009.517 (0) Total database tables backed up: 15 (backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz, size: 218761, sha1: 1fdcc03f9d0c5e7c5146065a788416243699b41b, sha256: 802d51593f7449177182c3db76f8007cd9790b3a9325baf9d4c031dc582f23a5)
+0009.522 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.523 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.523 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.524 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.525 (0) backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.525 (0) Saving backup history. Total backup size: 28.6 MB
+0009.528 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.530 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0009.531 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-e2a43e32d61efa8556cd029279f98c99)
+0010.540 (0) FTP: upload attempt: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip -> ftp://tomtom22@thomak.ae.lu@node4-eu.n0c.com//public_html/test_atelier/backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip
+0013.107 (0) Ftp chunked upload: 2.7 % uploaded
+0019.165 (0) Ftp chunked upload: 5.4 % uploaded
+0023.396 (0) Ftp chunked upload: 8.2 % uploaded
+0029.125 (0) Ftp chunked upload: 10.9 % uploaded
+0038.207 (0) Ftp chunked upload: 16.3 % uploaded
+0048.713 (0) Ftp chunked upload: 21.7 % uploaded
+0071.463 (0) Ftp chunked upload: 32.5 % uploaded
+0090.498 (0) Ftp chunked upload: 43.4 % uploaded
+0111.478 (0) Ftp chunked upload: 54.2 % uploaded
+0130.744 (0) Ftp chunked upload: 65 % uploaded
+0150.470 (0) Ftp chunked upload: 75.8 % uploaded
+0170.497 (0) Ftp chunked upload: 86.6 % uploaded
+0189.203 (0) Ftp chunked upload: 97.5 % uploaded
+0195.724 (0) FTP: upload attempt successful (18961.2KB in 185.18s)
+0195.726 (0) Recording as successfully uploaded: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip
+0195.728 (0) Deleting local file: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0195.728 (0) FTP: upload attempt: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip -> ftp://tomtom22@thomak.ae.lu@node4-eu.n0c.com//public_html/test_atelier/backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip
+0198.223 (0) Ftp chunked upload: 7.6 % uploaded
+0204.364 (0) Ftp chunked upload: 15.2 % uploaded
+0209.520 (0) Ftp chunked upload: 22.9 % uploaded
+0213.947 (0) Ftp chunked upload: 30.5 % uploaded
+0223.522 (0) Ftp chunked upload: 45.7 % uploaded
+0233.851 (0) Ftp chunked upload: 60.9 % uploaded
+0253.973 (0) Ftp chunked upload: 91.2 % uploaded
+0260.856 (0) FTP: upload attempt successful (6767.6KB in 65.13s)
+0260.858 (0) Recording as successfully uploaded: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip
+0260.859 (0) Deleting local file: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-themes.zip: skipped: user has unchecked updraft_delete_local option
+0260.860 (0) FTP: upload attempt: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip -> ftp://tomtom22@thomak.ae.lu@node4-eu.n0c.com//public_html/test_atelier/backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip
+0263.349 (0) The scheduled resumption is within 45 seconds - will reschedule
+0263.350 (0) Rescheduling resumption 1: moving to 345 seconds from now (1656313992)
+0263.354 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.354 (0) Ftp chunked upload: 24.4 % uploaded
+0269.407 (0) Ftp chunked upload: 48.8 % uploaded
+0274.646 (0) Ftp chunked upload: 73.2 % uploaded
+0278.852 (0) Ftp chunked upload: 97.6 % uploaded
+0281.070 (0) FTP: upload attempt successful (2113.2KB in 20.21s)
+0281.072 (0) Recording as successfully uploaded: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip
+0281.074 (0) Deleting local file: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0281.075 (0) FTP: upload attempt: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip -> ftp://tomtom22@thomak.ae.lu@node4-eu.n0c.com//public_html/test_atelier/backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip
+0283.570 (0) Ftp chunked upload: 41.8 % uploaded
+0289.679 (0) Ftp chunked upload: 83.7 % uploaded
+0292.924 (0) FTP: upload attempt successful (1233KB in 11.85s)
+0292.926 (0) Recording as successfully uploaded: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip
+0292.928 (0) Deleting local file: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-others.zip: skipped: user has unchecked updraft_delete_local option
+0292.929 (0) FTP: upload attempt: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz -> ftp://tomtom22@thomak.ae.lu@node4-eu.n0c.com//public_html/test_atelier/backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz
+0295.190 (0) FTP: upload attempt successful (213.6KB in 2.26s)
+0295.191 (0) Recording as successfully uploaded: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz
+0295.193 (0) Deleting local file: backup_2022-06-27-0903_Jamie_amp_Annie_d1058d4b12aa-db.gz: skipped: user has unchecked updraft_delete_local option
+0295.197 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=2
+0295.198 (0) Number of backup sets in history: 2; groups (db): 1
+0295.199 (0) Examining (for databases) backup set with group_id=0, nonce=d1058d4b12aa, datestamp=1656313383 (Jun 27 2022 07:03:03)
+0295.200 (0) This backup set is the backup set just made, so will not be deleted.
+0295.200 (0) Examining (for databases) backup set with group_id=0, nonce=358966ba98cd, datestamp=1656313057 (Jun 27 2022 06:57:37)
+0295.200 (0) This backup set (1656313057) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0295.200 (0) Number of backup sets in history: 2; groups (files): 1
+0295.201 (0) Examining (for files) backup set with nonce=d1058d4b12aa, datestamp=1656313383 (Jun 27 2022 07:03:03)
+0295.201 (0) This backup set is the backup set just made, so will not be deleted.
+0295.202 (0) This backup set is the backup set just made, so will not be deleted.
+0295.202 (0) This backup set is the backup set just made, so will not be deleted.
+0295.202 (0) This backup set is the backup set just made, so will not be deleted.
+0295.202 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0295.203 (0) Examining (for files) backup set with nonce=358966ba98cd, datestamp=1656313057 (Jun 27 2022 06:57:37)
+0295.203 (0) This backup set (1656313057) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0295.203 (0) This backup set (1656313057) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0295.203 (0) This backup set (1656313057) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0295.203 (0) This backup set (1656313057) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0295.203 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0295.203 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0295.252 (0) Resume backup (d1058d4b12aa, 0): finish run
+0295.255 (0) Decremented the semaphore (fd) by 1
+0295.256 (0) Semaphore (fd) unlocked
+0295.257 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0295.259 (0) The backup apparently succeeded and is now complete
+0295.260 (0) Fetching RSS news feed
+0295.328 (0) Fetched RSS news feed; result is a: SimplePie
+0295.389 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: admin...
+0295.406 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0295.407 (0) La sauvegarde a apparemment réussi et est maintenant terminée
